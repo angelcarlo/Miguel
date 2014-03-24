@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.2.0.min.css">
+<script src="js/jquery-1.8.2.min.js"></script>
+<script src="js/jquery.mobile-1.2.0.min.js"></script>
+
+
+function getMyLocation(){
+if(navigator.geolocation){
+
+</head>
+<body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+<div data-role="page" data-theme="a" id="mainPage">
+	<div data-role="header">
+		<h1>Check Your Place</h1>
+	</div>
+	
+		<div data-role="content">
+<center><img src="images\icon.png" width="330" height="370" /></center data>
+	</div>
+	
+	
+	<div data-role="footer" data-position="fixed">
+	<div data-role="navbar">
+	
+	<ul>
+	<li><a href="#pageTwo" data-transition="pop" data-icon="grid" >MENU</a></li>
+	</ul>		
+	</div>
+	</div>
+</div>
+
+
+<!-- Start of Page 2 -->
+
+
+
+<div data-role="page" data-theme="a" id="pageTwo">
+	<div data-role="header" >
+	</div>
+	<div data-role="content" data-theme="e">
+
+<iframe width="320" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.ph/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=google+maps+in+castillejos+zambales&amp;aq=&amp;sll=12.07895,121.95925&amp;sspn=25.953223,43.286133&amp;ie=UTF8&amp;hq=&amp;hnear=Castillejos,+Zambales,+Central+Luzon&amp;t=m&amp;z=12&amp;ll=14.933333,120.2&amp;output=embed"></iframe><br />
+<small><a href="https://maps.google.com.ph/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=google+maps+in+castillejos+zambales&amp;aq=&amp;sll=12.07895,121.95925&amp;sspn=25.953223,43.286133&amp;ie=UTF8&amp;hq=&amp;hnear=Castillejos,+Zambales,+Central+Luzon&amp;t=m&amp;z=12&amp;ll=14.933333,120.2" style="color:#0000FF;text-align:left">View Large Map</a></small>
+
+</div>
+
+
+<div class="fb-like" data-href="https://facebook.com" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+
+
+
+	
+	<div data-role="footer" data-position="fixed">
+	<div data-role="navbar">
+	
+	<ul>
+	<li><a href="#mainPage" data-transition="pop" data-icon="back" >BACK</a></li>
+	</ul>		
+	</div>
+	</div>
+</div>
+
+</body>
+
+
+</html>

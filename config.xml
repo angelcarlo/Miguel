@@ -1,0 +1,29 @@
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="race" version="1.0">
+<script id="tinyhippos-injected"/>
+<name>CHECK YOUR PLACE</name>
+<description>CHECK YOU PLACE</description>
+<author>Elaine Miguel</author>
+<gap:platforms>
+<gap:platform name="android"/>
+<gap:platform name="blackberry" project="widgets"/>
+</gap:platforms>
+<icon src="icon.png" gap:role="default"/>
+<preference name="phonegap-version" value="3.1.0"/>
+<access origin="*" subdomains="true"/>
+<access uri="*" subdomains="true"/>
+<feature name="http://api.phonegap.com/1.0/network"/>
+<feature name="http://api.phonegap.com/1.0/camera"/>
+<feature name="http://api.phonegap.com/1.0/file"/>
+<feature name="InAppBrowser">
+<param name="android-package" value="org.apache.cordova.InAppBrowser"/>
+</feature>
+<feature name="Geolocation">
+<param name="android-package" value="org.apache.cordova.GeoBroker"/>
+</feature>
+<feature name="Accelerometer">
+    <param name="android-package" value="org.apache.cordova.AccelListener" />
+</feature>
+<preference name="orientation" value="portrait"/>
+<preference name="fullscreen" value="true"/>
+<preference name="target-device" value="universal"/>
+</widget>
